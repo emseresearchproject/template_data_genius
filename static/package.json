@@ -1,0 +1,19 @@
+{
+  "name": "template_data_genius",
+  "version": "1.0.0",
+  "description": "Template html to create webpages for data genius",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/app.scss css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Camarasa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "vue": "^2.6.6"
+  }
+}
